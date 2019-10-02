@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>用户注册</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<script type="text/jscript" src="../js/格式.js">
+</script>
+</head>
+	<body>
+    <div class="dowebok">
+        <div class="logo"></div>
+        <div class="form-item">
+            <input id="name" type="text" placeholder="用户名:由6-14位字符组成" autocomplete="off" onBlur="check1()">
+            <div id="msg_name"></div>
+        </div>
+		
+		<div class="form-item">
+            <input type="text" id="useremail" placeholder="邮箱:请输入正确的邮箱格式" autocomplete="off" onChange="check2()"><div id="msg_useremail"></div>
+        </div>
+		
+       <div class="form-item" >
+            <input id="password" type="password" autocomplete="off" placeholder="密码:由6-10位字符组成" autocomplete="off" onChange="check3()"><div id="msg_pwd"></div>
+            
+      </div>
+		
+	  <div class="form-item">
+            <input id="copypassword" type="password" autocomplete="off" placeholder="确认密码:请与密码保持一致" autocomplete="off" onChange="check4()"><div id="msg_password"></div>
+            
+      </div>
+	    
+		
+		<div class="form-item">
+           <input id="yearold" type="number" placeholder="年龄:请输入10-100之间的整数" autocomplete="off" onChange="check5()"><div id="msg_yod"></div>
+            
+        </div>
+		
+		<div class="form-choose">
+			<label>性别</label>
+			<input id="radio" type="radio"name="gender"value="male"checked/>男<input id="radio" type="radio"name="gender"value="male"/>女
+		</div>
+		
+		
+		<div class="form-choose">
+          <label>所在地</label>
+			<select>
+			<option value="0">四川省</option>
+				<option value="1">湖南省</option>
+			</select>
+			<select>
+			<option value="0">成都市</option>
+				<option value="1">绵阳市</option>
+				<option value="3">长沙市</option>
+			</select>
+			<select>
+			<option value="0">武侯区</option>
+				<option value="1">郫都区</option>
+				<option value="3">金牛区</option>
+			</select>
+        </div>
+		
+<div class="form-item"><button id="submit">注册</button></div>
+        <div class="reg-bar">
+			<a class="reg" href="Hong Kong.html">立即登录</a>
+        </div>
+    </div>
+
+</body>
+</html>

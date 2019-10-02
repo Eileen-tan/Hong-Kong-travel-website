@@ -1,0 +1,620 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html";charset="gb2312">
+<title>Booking</title>
+	<link href="../css/bookingstyle.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="bmap.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/jscript" src="../js/map.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+<meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+<title>百度地图API自定义地图</title>
+</head>
+
+<body>
+		<div class="container">
+			<div class="top">
+			<header>
+		<div class="zhezhao2">	
+			<ul>
+<li><a href="#" class="nav-underline-active">首页</a></li>
+<li><a href="#" class="nav-underline">美食</a></li>
+<li><a href="#" class="nav-underline">美景</a></li>
+<li><a href="#" class="nav-underline">酒店</a></li>
+<li><a href="#" class="nav-underline">联系我们</a></li>
+	  
+</div>
+			</header>		
+		<div class="head-text">
+				<h1>
+香港丽思卡尔顿酒店(The Ritz-Carlton Hong Kong)</h1>
+		  <h5>豪华型酒店<br><br><img src="../images/star2.png"><img src="../images/star2.png"><img src="../images/star2.png"><img src="../images/star2.png"><img src="../images/star2.png"></h5>
+		  <p class="tubiao"><img src="../images/true1.png">香港,油尖旺,九龙 柯士甸道西1号环球贸易广场 ( 西九龙|尖沙咀) </p>
+					
+</div>
+			    <div class="clearfix"> </div>	
+	    <div class="daohang">
+			<ul>
+<li><a href="#num1" class="nav-underline-active">关于</a></li>
+<li><a href="#num2" class="nav-underline">预定</a></li>
+<li><a href="#num3" class="nav-underline">酒店概况</a></li>
+<li><a href="#dituContent" class="nav-underline">地理位置</a></li>
+<li><a href="#num4" class="nav-underline">精彩评论</a></li>
+<li><a href="#num5" class="nav-underline">底部导航</a></li>
+	  
+</div></div>
+</div>
+			</div>
+<div class="content">
+			<div class="xiangqing">
+			  <h2 id="num1">关于 ></h2>
+				<hr>
+				<div class="tupian1">
+			  <img src="../images/C._M0DCiyr7CLOMCBFi720.jpg" alt="" width="500" height="340" >
+					</div>
+			  <div class="tupian2">
+					<img src="../images/C._M0DCiiG4QrXPY91i720.jpg" alt="" width="200" height="165" >
+					<img src="../images/C._M0DCiis0DtFOUGXi720.jpg" alt="" width="200" height="165" >
+					<img src="../images/C._M0DCiyr7CtMSr9li720.jpg" alt="" width="200" height="162">
+				  <img src="../images/C._M0DCifhQAkr4-nTi720.jpg" alt="" width="200" height="162">
+				</div>
+				<div class="booking-form">
+					<h2 id="num2">预定 ></h2>
+					<form id="biaoge">
+						<div class="fl1">
+							<div class="tmInput">
+								<span>姓名</span>
+								<input name="Name" placeHolder="姓名:" type="text" data-constraints='@NotEmpty @Required @AlphaSpecial'>
+							</div>
+							<div class="tmInput">
+								<span>国籍</span>
+								<input name="Country" placeHolder="国籍:" type="text" data-constraints="@NotEmpty @Required">
+							</div>
+						</div>
+						<div class="fl1">
+							<div class="tmInput">
+								<span>邮箱</span>
+								<input name="Email" placeHolder="邮箱:"  type="text" data-constraints="@NotEmpty @Required @Email">
+							</div>
+							<div class="tmInput mr0">
+								<span>酒店</span>
+								<input name="Hotel" placeHolder="酒店:" type="text" data-constraints="@NotEmpty @Required">
+							</div>
+						</div>
+						<div class="clear"></div>
+						
+						<label class="tmDatepicker">
+							<span>入住</span>
+							<input type="text" name="Check-in" placeHolder='10/05/2018' data-constraints="@NotEmpty @Required @Date">
+						</label>
+						<div class="clear"></div>
+						
+						<label class="tmDatepicker">
+							<span>离店</span>
+							<input type="text" name="Check-out" placeHolder='20/05/2018' data-constraints="@NotEmpty @Required @Date">
+						</label>
+						<div class="clear"></div>
+						
+						<div class="clear"></div>
+						<div class="fl1 fl2">
+							<em>成人</em>
+							<select name="Adults" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+							</select>
+							<div class="clear"></div>
+							<em>房间数</em>
+							<select name="Rooms" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+							</select>
+						</div>
+						<div class="clear"></div>
+							<div class="fl1 fl2">
+							<em>小孩</em>
+							<select name="Children" class="tmSelect auto" data-class="tmSelect tmSelect2" data-constraints="">
+								<option>0</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+							</select>
+						</div>
+							
+						<div class="clear"></div>
+						<div class="tmTextarea">
+							<textarea name="Message" placeHolder="写下你的留言..." data-constraints='@NotEmpty @Required @Length(min=20,max=999999)'></textarea>
+						</div>
+						<a href="#" class="btn" data-type="submit">提交</a>
+					</form>
+				</div>
+				
+				<div class="col-md-6 about-right"> <!-- required for floating -->
+			          <!-- Nav tabs -->
+			          <ul class="nav nav-tabs tabs-right sideways">
+			            <li class="active" data_temp_dwid="1"><a href="#Tab-1-vr" data-toggle="tab" data_temp_dwid="2">
+香港丽思卡尔顿酒店位处九龙环球贸易广场的102至118层，地理位置优越，视野极佳。   酒店顶层更设有室内游泳池位，配套LED天花屏幕。</a></li>
+			            <li><a href="#Tab-2-vr" data-toggle="tab">拥有多间可饱览维港及城市景致的房间，客房内舒适整洁、各类配套设施完善。</a></li>
+			            <li><a href="#Tab-3-vr" data-toggle="tab">酒店同时配备6间餐厅及酒吧，包括中餐厅、意大利餐厅及在楼高490米之上的顶楼酒吧。</a></li>	
+						<li><a href="#Tab-4-vr" data-toggle="tab">酒店水疗中心占地860平方米，设9间豪华理疗室和2间双人套房，由世界水疗权威ESPA提供崭新的水疗疗程。另外，酒店拥有全港最大的宴会厅之一，加上4间会议室，总面积达1300平方米，是您举办婚宴和会议的理想场地。</a></li>		
+			          </ul>
+			        </div>
+			  <div class="fangxing">
+				  <h2 id="num6">房型信息 ></h2><hr>
+				<div class="fenlei">
+		<table width="1400" height="500" border="0">
+  <tbody>
+    <tr>
+      <th scope="row" rowspan="2" colspan="2">豪华房</th>
+      <td>豪华客房</td>
+      <td>无早</td>
+      <td>取消扣全款</td>
+      <td>&yen;4250</td>
+      <td><img src="../images/yuding.png"></td>
+      
+    </tr>
+    <tr>
+      <td>豪华房</td>
+      <td>双早</td>
+      <td>取消扣全款</td>
+      <td>&yen;5702</td>
+      <td><img src="../images/yuding.png"></td>
+    </tr>
+    <tr>
+      <th scope="row" rowspan="2" colspan="2">豪华维多利亚海港房</th>
+     <td>豪华维港海景客房</td>
+      <td>无早</td>
+      <td>取消扣全款</td>
+      <td>&yen;6613</td>
+      <td><img src="../images/yuding.png"></td>
+    </tr>
+    <tr>
+      <td>豪华套房(内宾)</td>
+      <td>无早</td>
+      <td>取消扣全款</td>
+      <td>&yen;8018</td>
+      <td><img src="../images/yuding.png"></td>
+    </tr>
+    <tr>
+      <th scope="row" rowspan="2" colspan="2">家庭套房</th>
+     <td>特大号床豪华套房</td>
+      <td>双早</td>
+      <td>取消担保费</td>
+      <td>&yen;9948</td>
+      <td><img src="../images/yuding.png"></td>
+    </tr>
+    <tr>
+      <td>俱乐部豪华套间</td>
+      <td>无早</td>
+      <td>取消扣全款</td>
+      <td>&yen;7755</td>
+      <td><img src="../images/yuding.png"></td>
+    </tr>
+    <tr>
+      <th scope="row" rowspan="2" colspan="2">豪华海景房</th>
+      <td>俱乐部豪华套间</td>
+      <td>无早</td>
+      <td>取消扣全款</td>
+      <td>&yen;7755</td>
+      <td><img src="../images/yuding.png"></td>
+    </tr>
+    <tr>
+      <td>俱乐部豪华套间</td>
+      <td>无早</td>
+      <td>取消扣全款</td>
+      <td>&yen;7755</td>
+      <td><img src="../images/yuding.png"></td>
+    </tr>
+  </tbody>
+</table>
+
+
+				  </div>
+			  </div>
+<div class="gaikuang">
+		  <hr width="1500">
+				<h2 id="num3">设施概况 ></h2>
+				  <div class="gaikuangnei">
+			<table width="800" height="500" border="1" cellpadding="0" cellspacing="0">
+					
+  <tbody>
+    <tr>
+      <th scope="row" align="center" width="100">联系方式</th>
+      <td>
+电话00852--22632263</td>
+    </tr>
+    <tr>
+      <th scope="row">基本信息</th>
+      <td>连锁品牌（丽思卡尔顿）奢华酒店商务型酒店连锁品牌2011年开业312间客房层高16层</td>
+    </tr>
+    <tr>
+      <th scope="row">酒店政策</th>
+      <td>入离时间：入住时间: 14:00以后        离店时间: 12:00以前
+儿童与加床：不接受18岁以下客人单独入住。 不接受18岁以下客人在无监护人陪同的情况下入住 2017年7月24日起，行政酒廊每天上午6时至晚上7时对10岁及以下儿童开放；考虑到其他宾客的需要，请维持行政酒廊安静且舒适的环境及氛围。 加床政策、儿童人数请参见您所选定的客房政策，若超过房型限定人数，可能需收取额外费用。提出的任何要求均需获得酒店的确认，所有服务详情以酒店告知为准。
+附加费用：自助早餐HKD383
+预订须知：不可携带宠物。</td>
+    </tr>
+    <tr>
+      <th scope="row">网络设施
+</th>
+      <td>
+公共区域和部分房间提供wifi</td>
+    </tr>
+    <tr>
+      <th scope="row">房间设施</th>
+      <td>
+		  <table width="300" border="0">
+  <tbody>
+    <tr>
+      <td width="100"><img src="../images/gou2.png">宽带上网</td>
+      <td width="120"><img src="../images/gou2.png">国际长途电话</td>
+      <td width="100"><img src="../images/gou2.png">吹风机</td>
+      <td><img src="../images/gou2.png">24小时热水</td>
+    </tr>
+  </tbody>
+</table>
+</td>
+    </tr>
+    <tr>
+      <th scope="row">酒店服务</th>
+      <td>
+		  <table width="100" border="0">
+  <tbody>
+    <tr>
+      <td width="120"><img src="../images/gou2.png">早餐服务 ￥303</td>
+      <td width="120"><img src="../images/gou2.png">接机服务收费</td>
+      <td width="120"><img src="../images/gou2.png">洗衣服务</td>
+      <td width="120"><img src="../images/gou2.png">行李寄存</td>
+      <td><img src="../images/gou2.png">叫醒服务</td>
+    </tr>
+  </tbody>
+</table>
+		</td>
+    </tr>
+    <tr>
+      <th scope="row">酒店设施</th>
+      <td>
+		  <table width="500" border="0">
+  <tbody>
+    <tr>
+      <td><img src="../images/gou2.png">西式餐厅</td>
+      <td><img src="../images/gou2.png">中式餐厅</td>
+      <td><img src="../images/gou2.png">残疾人设施</td>
+      <td><img src="../images/gou2.png">室内游泳池</td>
+      <td><img src="../images/gou2.png">会议室</td>
+      <td><img src="../images/gou2.png">健身房</td>
+      <td><img src="../images/gou2.png">SPA</td>
+    </tr>
+    <tr>
+      <td><img src="../images/gou2.png">无烟房</td>
+      <td><img src="../images/gou2.png">商务中心</td>
+      <td><img src="../images/gou2.png">酒吧</td>
+      <td><img src="../images/gou2.png">桑拿</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table></td>
+    </tr>
+  </tbody>
+						
+</table>
+</div>
+				</div>
+<div id="dituContent">
+<div class="ditu">地理位置</div>
+			
+</div>
+				
+<!--
+				<div class="detail">
+					<div class="extra_wrapper">
+						<p>Lorem ipsum dolor sit ere amet, consectetur ipiscin.</p>
+						In mollis erat mattis neque facilisis, sit ametiol
+					</div>
+					<div class="clear cl1"></div>
+					<p>Find the detailed description of this <span class="col1"><a href="http://www.cssmoban.com/" rel="dofollow">freebie</a></span> at TemplateMonster blog.</p>
+					<p><span class="col1"><a href="http://www.cssmoban.com/category/travel-website-templates/" rel="nofollow">Travel Website Templates</a></span> category offers you a variety of designs that are perfect for travel sphere of business.</p>
+					Proin pharetra luctus diam, a scelerisque eros convallis
+					<h4>Clients?? Quotes</h4>
+			  </div>
+			-->
+			  <div class="pinglun">
+				<h2 id="num4">精彩评论 ></h2>
+					<hr>
+				   <div class="touxiang">
+					
+					   <section class="test_area section_gap">
+            <div class="pinglunnei">
+                <div class="test_slider">
+                    <div class="test_item">
+						<img class="rounded-circle" src="../images/touxiang.jpg" alt="">
+                        <div class="media-body">
+                            <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
+                            <a href="#"><h4 class="sec_h4">Fanny Spencer</h4></a>
+                            <div class="star">
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star-half-o"></i></a>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="media test_item">
+                        <img class="rounded-circle" src="../images/touxiang.jpg" alt="">
+                        <div class="media-body">
+                            <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
+                            <a href="#"><h4 class="sec_h4">Fanny Spencer</h4></a>
+                            <div class="star">
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star-half-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media test_item">
+                        <img class="rounded-circle" src="../images/touxiang.jpg" alt="">
+                        <div class="media-body">
+                            <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
+                            <a href="#"><h4 class="sec_h4">Fanny Spencer</h4></a>
+                            <div class="star">
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star-half-o"></i></a>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="media test_item">
+                        <img class="rounded-circle" src="../images/touxiang.jpg" alt="">
+                        <div class="media-body">
+                            <p>As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the </p>
+                            <a href="#"><h4 class="sec_h4">Fanny Spencer</h4></a>
+                            <div class="star">
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star"></i></a>
+                                <a href="#"><i class="fa fa-star-half-o"></i></a>
+                            </div>
+                        </div>
+                    </div>
+					<a href="#" class="gengduo">更多 >></a>
+                </div>
+            </div>
+        </section>
+				   </div>
+                 </div>	
+				</div>
+	
+		<div class="tuijian">
+	<h2 id="num5">酒店推荐 ></h2><hr>
+		<div class="sort5">
+			<div class="aa1">
+		20%的人选择了
+			</div>
+	  <div class="informa5">
+			 <h3 class="words5">
+				 <a href="" class="in-word5" rel="bookmark">迪士尼探索家度假酒店(Disney Explorers Lodge)
+				 </a>	
+		</h3>
+	     </div>
+	</div>
+
+<div class="sort6">
+	<div class="aa2" >
+		10%的人选择了
+	  </div>
+	 <div class="informa6">
+			 <h3 class="words6">
+				 <a href="" class="in-word6" rel="bookmark">香港嘉里酒店(Kerry Hotel Hong Kong)
+				 </a>	
+		</h3>
+	     </div>
+</div>
+
+<div class="sort7">
+	<div class="aa3">
+		12%的人选择了
+			</div>
+	 <div class="informa7">
+			 <h3 class="words7">
+				 <a href="" class="in-word7" rel="bookmark">香港美丽华酒店(The Mira Hong Kong)
+				 </a>	
+		</h3>
+	     </div>
+</div> 
+			<div class="sort8">
+                    <div class="aa4">8%的人选择了
+			</div>
+                    <div class="informa8">
+                        <h3 class="words8">
+                            <a href="#" class="in-word8">香港皇家太平洋酒店(The Royal Pacific Hotel and Towers)
+						</a>
+						</h3>
+                    </div>
+                </div>
+			<div class="sort9">
+                    <div class="aa5">
+		20%的人选择了
+			</div>
+                    <div class="informa8">
+                        <h3 class="words8">
+                            <a href="#" class="in-word8">香港半岛酒店(The Peninsula Hong Kong)
+						</a>
+						</h3>
+                    </div>
+                </div>
+	</div>	 
+  </div>
+		<div class="footer">
+	<div class="neirong">
+		<div class="footer-top-at">
+			
+				<div class="col-md-3 amet-sed">
+				<h4>更 多 信 息</h4>
+				<ul class="nav-bottom">
+						<li><a href="#">怎样预定</a></li>
+						<li><a href="#">帮助</a></li>
+						<li><a href="contact.html">位置</a></li>
+						<li><a href="#">Shipping</a></li>
+						<li><a href="#">Membership</a></li>	
+					</ul>	
+				</div>
+				<div class="col-md-3 amet-sed">
+					<h4>目 录</h4>
+					<ul class="nav-bottom">
+						<li><a href="#">豪华型</a></li>
+						<li><a href="#">经济型</a></li>
+						<li><a href="#">连锁型</a></li>
+						<li><a href="#">舒适型</a></li>	
+					</ul>
+					
+				</div>
+				<div class="col-md-3 amet-sed">
+					<h4>体 验 更 多</h4>
+					<div class="stay">
+						<div class="stay-left">
+							<form>
+								<input type="text" placeholder="填写你的邮箱 " required="">
+							</form>
+						</div>
+						<div class="btn-1">
+							<form>
+								<input type="submit" value="Subscribe">
+							</form>
+						</div>
+							<div class="clearfix"> </div>
+			</div>
+					
+				</div>
+				<div class="col-md-3 amet-sed ">
+				<h4>联 系 我 们</h4>
+					<p>中国四川省成都市</p>
+					<p>双流区学府路一段24号</p>
+					<p>电话 :  +12 34 995 0792</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+	</div>
+
+	</div>		
+
+	
+	
+	</body>
+	
+			
+			
+			
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(114.172033,22.30698);//定义一个中心点坐标
+        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+    //标注点数组
+    var markerArr = [{title:"香港丽思卡尔顿酒店",content:"我的备注",point:"114.171692|22.306428",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+		 ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+			var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+			var iw = createInfoWindow(i);
+			var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+			marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+			
+			(function(){
+				var index = i;
+				var _iw = createInfoWindow(i);
+				var _marker = marker;
+				_marker.addEventListener("click",function(){
+				    this.openInfoWindow(_iw);
+			    });
+			    _iw.addEventListener("open",function(){
+				    _marker.getLabel().hide();
+			    })
+			    _iw.addEventListener("close",function(){
+				    _marker.getLabel().show();
+			    })
+				label.addEventListener("click",function(){
+				    _marker.openInfoWindow(_iw);
+			    })
+				if(!!json.isOpen){
+					label.hide();
+					_marker.openInfoWindow(_iw);
+				}
+			})()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+    
+    initMap();//创建和初始化地图
+</script>
+</html>

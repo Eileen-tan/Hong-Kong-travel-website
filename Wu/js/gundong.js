@@ -1,0 +1,1 @@
+$(function(){ if( $('.mask span').text() <= 50 ){ $('.circle_right').css('transform','rotate('+($('.mask span').text()*3.6)+'deg)'); }else{ $('.circle_right').css({ 'transform':'rotate(0deg)', "background":"#2c7efd" }); $('.circle_left').css('transform','rotate('+(($('.mask span').text()-50)*3.6)+'deg)'); } })

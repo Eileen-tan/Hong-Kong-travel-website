@@ -1,0 +1,384 @@
+@charset "utf-8";/* CSS Document */
+body{
+	background-color:white;
+	
+}
+div.jiudian{
+	width: 90%;
+	margin: 70px;
+}
+.b{
+	height: 400px;
+	margin: 10px;
+}
+a:link{
+	text-decoration: none;
+	color:#FFAE00;
+}
+a:visited{
+	text-decoration: none;
+	color:#FFAE00;
+}
+a:hover{
+	text-decoration: none;
+	color:#A74F1B;
+}
+
+.meishi{
+	
+	font-size: 50pt;
+	font-style: normal;
+	font-weight: 400;
+	color:#FFAE00;
+	text-align: center;
+	font-family:Brush Script Std;
+}
+.jianjie{
+	width: 134px;
+	height: 134px;
+	float: left;
+	margin-left: 110px;
+	margin-right:38px;
+	margin-top: 60px;
+	text-align: center;
+	font-family:楷体;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight:900;
+	color:#FFAE00;
+	
+	
+}
+.lingxing{
+	width: 95%;
+	margin-left: 5%;
+}
+.lingxing1{
+	width: 23;
+	height: 134px;
+	transform: rotate(45deg);
+	border:solid 3px #FFAE00;
+	background-image: url(../image/20130629135732_fmmQW.thumb.600_0.jpeg);
+	float: left;
+	margin-left: 110px;
+	margin-right: 70px;
+	margin-top: 50px;
+	transition: all 0.5s;
+    }
+.lingxing1:hover{
+	
+	transform: scale(1.2);
+}
+.lingxing2{
+	width: 134px;
+	height: 134px;
+	transform: rotate(45deg);
+	border:solid 3px #FFAE00;
+	background-image: url(../image/zaocha.png);
+	background-size: 100% 100%;
+	float: left;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 50px;
+   transition: all 0.5s;
+    }
+.lingxing2:hover{
+	
+	transform: scale(1.2);
+}
+.lingxing3{
+	width: 134px;
+	height: 134px;
+	transform: rotate(45deg);
+	border:solid 3px #FFAE00;
+	background-image: url(../image/20130629135732_fmmQW.thumb.600_0.jpeg);
+	float: left;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 50px;
+    transition: all 0.5s;
+    }
+.lingxing3:hover{
+	
+	transform: scale(1.2);
+}
+.lingxing4{
+	width: 134px;
+	height: 134px;
+	transform: rotate(45deg);
+	border:solid 3px #FFAE00;
+	background-image: url(../image/20130629135732_fmmQW.thumb.600_0.jpeg);
+	float: left;
+	margin-left: 70px;
+	margin-right: 110px;
+	margin-top: 50px;
+    transition: all 0.5s;
+    }
+.lingxing4:hover{
+	
+	transform: scale(1.2);
+}
+
+
+.wei{
+	margin: -10px;
+	padding: 40px;
+	background-color:rgba(74,74,74,1.00);
+	background-size: 100% 100%;
+	width:1270px;
+	height: 240px;
+}
+.weiye{
+	width: 430px;
+	height: 250px;
+	float: left;
+	margin-top: 0px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: unifrakturcook;
+	font-style: normal;
+	font-weight: 700;
+}
+.weiye1{
+	width: 300px;
+	height: 250px;
+	float: left;
+	margin-top: 0px;
+	margin-left: 40px;
+	margin-right: 100px;
+	font-family: unifrakturcook;
+	font-style: normal;
+	font-weight: 700;
+}
+.lianxi{
+	font-size: 16pt;
+	font-style:normal;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	font-family:楷体;
+}
+.youxiang{
+	font-size: 10pt;
+	font-style: normal;
+	color: white;
+	text-align: left;
+	font-family: 楷体;
+}
+
+.jiudian{
+	height: 1000px;
+	background-color: rgba(240,247,248,1.00)
+}
+.gengduo{
+	color:#C9AD16;
+	font-size: 14pt;
+	font-weight: 800;
+	font-style: normal;
+	font-family: 楷体;
+	margin-left: 100px;
+	margin-right: 80px;
+	margin-bottom: 10px;
+	
+		
+}
+.jiudiannei{
+	margin-top: 1px;
+	width: 100%;
+}
+
+.datu1{
+	width: 54%;
+	margin: 3%;
+	height: 700px;
+	float: left;
+	
+}
+.datu2{
+	width: 37%;
+	margin: 3%;
+	margin-left: 0%;
+	height: 700px;
+	float: left;
+	
+}
+.tupian1{
+	width: 100%;
+	height: 70%;	background:url(../image/香港龙堡国际/wKgBZ1mIP-uAHS2PAAE5QzHd19003.jpeg);
+	background-size: 100% 100%;
+	
+}
+.zhezhao{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(54,54,54,0.59);
+}
+.zhezhao0{
+	width: 100%;
+	height: 88%;
+}
+.zhezhao1{
+	width: 100%;
+	height: 5%;
+	color: aliceblue;
+	font-size: 16pt;
+	font-weight: 400;
+	font-style: normal;
+	font-family: 楷体;
+	margin-left: 15px;
+	
+}
+.zhezhao2{
+	width: 100%;
+	height: 7%;
+	color: aliceblue;
+	font-size: 12pt;
+	font-weight: 200;
+	font-style: normal;
+	font-family: 楷体;
+	margin-left: 19px;
+}
+.xingji{
+	width: 100%;
+	height: 20%;
+	background-color: aqua;
+}
+.jieshao{
+	width: 100%;
+	height: 30%;
+}
+h3{
+	color: rgba(229,164,22,1.00);
+	font-size: 18pt;
+	font-weight: 600;
+	font-style: normal;
+	font-family: 楷体;
+
+}
+h6{
+	margin-top: -5px;
+	color:rgba(229,164,22,1.00);
+	font-size: 14pt;
+	font-weight: 400;
+	font-style: normal;
+	font-family: 楷体;
+}
+.tieshi{
+	width: 70%;
+	margin-top: -40px;
+	color: rgba(102,101,101,1.00);
+	font-size: 11pt;
+	font-weight: 400;
+	font-style: normal;
+	font-family: 幼圆;
+}
+.aa{
+	width: 20%;
+	height: 40px;
+	background-color:rgba(253,166,54,1.00);
+	float: right;
+	margin-right: 10px;
+	border-radius: 10px;
+	text-align: center;
+	color:wheat;
+	font-size: 12pt;
+	font-weight: 700;
+	line-height: 40px;
+	transition: all 0.5s;
+}
+.aa:hover{
+	background-color: rgba(250,196,127,1.00);
+	color:rgba(216,128,16,1.00);
+}
+.zhezhao3{
+	width: 100%;
+	height: 6%;
+	color: aliceblue;
+	font-size: 13pt;
+	font-weight: 400;
+	font-style: normal;
+	font-family: 楷体;
+	margin-left: 15px;
+	
+}
+.zhezhao4{
+	width: 100%;
+	height: 7%;
+	color: aliceblue;
+	font-size: 11pt;
+	font-weight: 200;
+	font-style: normal;
+	font-family: 楷体;
+	margin-left: 19px;
+}
+.bb{
+	width: 15%;
+	height: 30px;
+	background-color:rgba(253,166,54,1.00);
+	float: right;
+	margin-right: 30px;
+	border-radius: 10px;
+	text-align: center;
+	color:wheat;
+	font-size: 11pt;
+	font-weight: 600;
+	line-height: 30px;
+	transition: all 0.5s;
+}
+.bb:hover{
+	background-color: rgba(250,196,127,1.00);
+	color:rgba(216,128,16,1.00);
+}
+.cc{
+	width: 15%;
+	height: 30px;
+	background-color:rgba(253,166,54,1.00);
+	float: right;
+	margin-right: 30px;
+	border-radius: 10px;
+	text-align: center;
+	color:wheat;
+	font-size: 11pt;
+	font-weight: 600;
+	line-height: 30px;
+	transition: all 0.5s;
+}
+.cc:hover{
+	background-color: rgba(250,196,127,1.00);
+	color:rgba(216,128,16,1.00);
+}
+.zhezhao5{
+	width: 100%;
+	height: 6%;
+	color: aliceblue;
+	font-size: 13pt;
+	font-weight: 400;
+	font-style: normal;
+	font-family: 楷体;
+	margin-left: 15px;
+	
+}
+.zhezhao6{
+	width: 100%;
+	height: 7%;
+	color: aliceblue;
+	font-size: 11pt;
+	font-weight: 200;
+	font-style: normal;
+	font-family: 楷体;
+	margin-left: 19px;
+}
+.tupian2{
+	width: 100%;
+	height: 48%;
+	margin-bottom: 4%;	background:url(../image/香港casa/wKgB6lRzHX6AApLxAAGKx4K4xyo79.jpeg);
+	background-size: 100% 100%;
+	
+}
+.tupian3{
+	width: 100%;
+	height: 48%;
+    margin-top: 7%;	background:url(../image/香港casa/wKgBpVY0q8aALGJ4AAEXnO98_Pg12.jpeg);
+	background-size: 100% 100%;
+	
+}

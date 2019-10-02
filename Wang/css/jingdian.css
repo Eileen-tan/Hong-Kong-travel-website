@@ -1,0 +1,482 @@
+@charset "utf-8";
+
+body{
+	width: 100%;
+}
+.biaoti{
+	height: 800px;
+	font-family:"annie-use-your-telescope";
+	font-size:50pt;
+	color: aliceblue;
+	text-align: center;
+    line-height: 600px;
+}
+.biaoti img{
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+header{
+	padding: 0px;
+	width: 100%;
+	height: 800px;
+	background-image: url(../img/wangjiao.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header ul{
+			width:auto;
+			margin-left: 60%;
+			
+		}
+ header li,.dropdown{
+			display: inline-block;
+			margin: 0 auto;
+	        position: relative;
+			padding: 0 0.8em;
+			font-size: 18px;
+		}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.5);
+}
+
+.dropdown-content a {
+    color:#FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	box-shadow: 0px 0px 16px rgba(0,0,0,0.3);
+	color:#F1919E; 
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+		
+a.nav-underline-active{
+	        position: relative;
+		    text-decoration: none;
+		    color:#000000;
+		    display: block;
+		    padding: 1.2em 0.8em;
+			color:#F1919E;
+}
+a.nav-underline{
+			position: relative;
+		    text-decoration: none;
+		    color:#000000;
+		    display: block;
+		    padding: 1.2em 0.8em;
+			color:aliceblue;
+		}
+		.nav-underline:before,.nav-underline-active:before {
+		  content: "";
+		  position: absolute;
+		  bottom: 0;
+		  width: 0;
+		  border-bottom: 2px solid #F1919E;
+		}
+		.nav-underline:hover:before,.nav-underline-active:hover:before {
+		  width: 80%;
+		}
+		.nav-underline:before,.nav-underline-active:before {
+		  -webkit-transition: width 0.3s ease-in-out;
+		  -moz-transition: width 0.3s ease-in-out;
+		  -ms-transition: width 0.3s ease-in-out;
+		  -o-transition: width 0.3s ease-in-out;
+		  transition: width 0.3s ease-in-out;
+		}
+		
+		.nav-underline:hover {
+		  color: #F1919E;
+		}
+.zhuti{
+	width:64%;
+	margin: 0 auto;
+}
+	
+.jianjie{
+		width:83.5%;
+		height:auto;
+		margin: 0 auto;
+	}
+.xinxi{
+		width:83.5%;
+		height: auto;
+		margin: 0 auto;
+	}
+.foodaround{
+		width:83.5%;
+		height:350px;
+		margin: 0 auto;
+	}
+.scenearound{
+		width:83.5%;
+		height:420px;
+		margin: 0 auto;
+	}
+.food-content{
+	width: 94%;
+	height: 54%;
+	float: left;
+	padding-top: 3%;
+}
+.gengduo{
+	width:6%;
+	height: 10%;
+	margin-top: 13%;
+	float: left;
+}
+.gengduo img{
+	width: 40px;
+	height: 40px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.food{
+	width:31%;
+	height: 190px;
+	text-align: center;
+	float:left;
+	margin-right: 17px;
+	color:aliceblue;
+	font-size: 18px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+.food1{
+	background-image: url(../img/美食1.jpg);
+	width:100%;
+	height: 190px;
+	background-size:cover;
+    background-repeat: no-repeat;
+	}
+.food1:hover .zhezhao,.food2:hover .zhezhao,.food3:hover .zhezhao
+,.scene1:hover .zhezhao,.scene2:hover .zhezhao,.scene3:hover .zhezhao{
+	margin-top: 1px;
+	transition-duration: 1s;
+}
+.food1:hover p,.food2:hover p,.food3:hover p,
+.scene1:hover p,.scene2:hover p,.scene3:hover p{
+	margin-top: 80px;
+	transition-duration: 1.5s;
+	color:#FFFFFF;
+}
+.food2{
+	background-image: url(../img/美食2.jpg);
+	width:100%;
+	height: 190px;
+	background-size:cover;
+    background-repeat: no-repeat;
+	}
+.food3{
+	background-image: url(../img/美食3.jpg);
+	width:100%;
+	height: 190px;
+	background-size:cover;
+    background-repeat: no-repeat;
+	}
+.scene1{
+	background-image: url(../img/景点1.jpg);
+	width:100%;
+	height: 190px;
+	background-size:cover;
+    background-repeat: no-repeat;
+	}
+.scene2{
+	background-image: url(../img/景点2.jpg);
+	width:100%;
+	height: 190px;
+	background-size:cover;
+    background-repeat: no-repeat;
+	}
+.scene3{
+	background-image: url(../img/景点3.jpg);
+	width:100%;
+	height: 190px;
+	background-size:cover;
+    background-repeat: no-repeat;
+	}
+.zhezhao{
+	background: rgba(0,0,0,.5);
+	width:100%;
+	height: 190px;	
+	position: absolute;
+	margin-top:145px;
+}
+.zhezhao p{
+	position:absolute;
+	width: 100%;
+	margin: 0 auto;
+	height: 190px;
+	line-height: 40px;
+}
+.zhezhao2{
+	background: rgba(0,0,0,.4);
+	width:100%;
+	height: 800px;
+	position: absolute;
+}
+.commentlist{
+	width:83.5%;
+	height: auto;
+	margin: 0 auto;
+}
+.touxiang{
+	width:50px;
+	height: 50px;
+	border-radius: 25px;
+	float: left;
+	cursor: pointer;
+}
+.comment{
+	width: 100%;
+	height:150px;
+}
+.you{
+	width:90%;
+	height:inherit;	
+	float: left;
+	margin-left: 20px;
+}
+.ming{
+	width:11%;
+	height: 20px;
+	overflow: hidden;
+	text-decoration:underline;
+	margin-bottom: 10px;
+	display:inline;
+	color: #3C3C3C;	
+	cursor: pointer;
+}
+.star{
+	width: 12%;
+	height:auto;
+	display:inline;
+}
+.star img{
+		margin: -2px;
+}
+.ming:hover{
+	color:#BF7A7B;
+
+}
+.com{
+	width:100%;
+	background-color: aliceblue;
+	margin-top: 10px;
+}
+.addcom{
+	width:83.5%;
+	height: auto;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+.addcom span{
+	text-align: right;
+	width: 100px;
+	display: inline-block;
+	float: left;	
+}
+#zongping{
+	margin-bottom: 20px;
+}
+#pingjia{
+	height: auto;
+}
+
+#pingjia textarea{
+	width: 40%;
+	height:100px;
+	background-color: antiquewhite;
+	display: inline;
+}
+.zishu{
+	font-size: 9pt;
+	margin-left: 12%;
+}
+.cleanfloat{
+	display: inline-block;
+	padding: 0;
+	margin-left: -3px;
+	margin-top: -20px;
+}
+.cleanfloat::after{display: block; clear: both; content:""; visibility: hidden; height: 0;}/*清浮动*/
+form ul li{
+	list-style:none;
+	float:left; 
+	font-size:24px; 
+	margin-bottom:-22px; 
+	color:#ccc; 
+	cursor:pointer;}/*五角星样式*/
+.hs,.cs{color:#FFA600;}/*五角星点击后样式*/
+
+.chooseImage{
+	background-image: url(../img/上传.jpg);
+	width: 17%;
+	height: 135px;
+	background-size: contain;
+	cursor: pointer;
+	margin-left: 12.5%;
+}
+.chooseImage:hover{
+	background-image: url(../img/上传2.jpg);
+}
+.tijiao{
+	background-color:#844E49;
+	width: 80px;
+	height: 35px;
+	margin-left: 16%;
+	margin-top: 20px;
+	cursor: pointer;
+	color: aliceblue;
+	text-align: center;
+	font-size: 14pt;
+	box-shadow: 0px 0px 10px #000;
+	opacity: 0.9;
+	line-height: 35px;
+}
+.tijiao:hover{
+	opacity: 1;
+	color: #FAB3B4;
+}
+.daohang{
+	position:fixed;
+	left: 0px;
+	top:30%;
+	width: 6.5%;
+	height: 50%;
+	background-color:#631120;
+	opacity: 0.8;
+	box-shadow:0px 0px 10px #000;
+	line-height:100%;
+}
+.daohang li{
+	width: 80px;
+	height: 100px;
+	list-style-type: none;
+}
+.daohang li a{
+	margin-left: -30%;
+	color: aliceblue;
+	width: 80px;
+	height: 80px;
+	font-size: 18px;
+	text-decoration-line: none;
+}
+.daohang li a:hover{
+	width: 150px;
+	font-size: 23px;
+	color:#EA8587;
+	-webkit-transition: width,font-size 0.2s ease-in-out;
+		  -moz-transition: width,font-size 0.2s ease-in-out;
+		  -ms-transition: width,font-size 0.2s ease-in-out;
+		  -o-transition: width,font-size 0.2s ease-in-out;
+		  transition: width,font-size 0.2s ease-in-out;
+}
+.footer{
+	background:#141414;
+	bottom: 0;
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+	font-family: 'Roboto Slab', serif;
+	float:left;
+}
+.footer-top-at {
+	float: left;
+	width: 100%;
+}
+.neirong {
+  margin-right: 15px;
+	float: left;
+    width: 100%;
+  }
+ .col-md-3 {
+  min-height: 1px;
+  margin-left: 150px;
+  margin-top: 90px;
+    width: 12%;
+    float: left;
+  }
+.amet-sed h4{
+	font-size: 18px;
+  	color: #B0B2B5;
+    font-family: 'Lato', sans-serif;
+	margin: 0 0 15px 30px;
+	text-transform: uppercase;
+    font-weight: 700;
+}
+ ul.nav-bottom li{
+	list-style:none;
+}
+ul.nav-bottom li  a{
+	text-decoration:none;
+	color:#6B6B6B;
+	font-size:18px;
+	display: inline-block;
+	margin: 4px 0;
+}
+ul.nav-bottom li  a:hover{
+	color:#8ce78a;
+}
+.amet-sed p{
+	color:#989696;
+	font-size: 20px;
+	margin: 0 0 5px;
+}
+.footer-class  p a{
+	color:#8ce78a;
+	text-decoration:none;
+}
+.footer-class  p a:hover{
+	color:#fff;
+}
+
+.amet-sed form{
+   padding:15px 0 0;
+}
+.amet-sed input[type="text"], .amet-sed input[type="submit"] {
+  width: 100%;
+  padding: 0.5em;
+  outline: none;
+  color: #000;
+  font-size: 1em;
+  background: #fff;
+  border: none;
+ }
+ .amet-sed input[type="submit"] {
+  width: 36%;
+  color: #FFF;
+  font-size: 18px;
+  background:#8ce78a;
+  border: none;
+  outline:none;
+  padding: 0.5em;
+}
+.amet-sed input[type="submit"]:hover {
+background: #fff;
+color:#8ce78a;
+}
+.footer-class p {
+    font-size: 20px;
+    line-height: 40px;
+}
+.footer-class {
+    padding: 10px 0;
+	text-align:center;
+    background:#000;
+}
+
+
+
+

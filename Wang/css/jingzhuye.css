@@ -1,0 +1,635 @@
+@charset "utf-8";
+
+
+body{
+	width: 100%;
+}
+header{
+			width:100%;
+			height:800px;
+			background-image: url(../机窗.jpg);
+		    background-size: cover;
+	        background-repeat: no-repeat;
+		}
+		header ul{
+			width:auto;
+			margin-left: 60%;
+			
+		}
+        header li,.dropdown{
+			display: inline-block;
+			margin: 0 auto;
+	        position: relative;
+			padding: 0 0.8em;
+			font-size: 18px;
+		}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.5);
+}
+
+.dropdown-content a {
+    color:#FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	box-shadow: 0px 0px 16px rgba(0,0,0,0.3);
+	color:#F1919E; 
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+		
+a.nav-underline-active{
+	        position: relative;
+		    text-decoration: none;
+		    color:#000000;
+		    display: block;
+		    padding: 1.2em 0.8em;
+			color:#F1919E;
+}
+a.nav-underline{
+			position: relative;
+		    text-decoration: none;
+		    color:#000000;
+		    display: block;
+		    padding: 1.2em 0.8em;
+			color:aliceblue;
+		}
+		.nav-underline:before,.nav-underline-active:before {
+		  content: "";
+		  position: absolute;
+		  bottom: 0;
+		  width: 0;
+		  border-bottom: 2px solid #F1919E;
+		}
+		.nav-underline:hover:before,.nav-underline-active:hover:before {
+		  width: 80%;
+		}
+		.nav-underline:before,.nav-underline-active:before {
+		  -webkit-transition: width 0.3s ease-in-out;
+		  -moz-transition: width 0.3s ease-in-out;
+		  -ms-transition: width 0.3s ease-in-out;
+		  -o-transition: width 0.3s ease-in-out;
+		  transition: width 0.3s ease-in-out;
+		}
+		
+		.nav-underline:hover {
+		  color: #F1919E;
+		}
+
+.zhezhao2{
+	     background: rgba(0,0,0,.4);
+	     width:100%;
+	     height: 100%;
+        }
+.biaoti{
+	text-align: center;
+	height: 100%;
+	font-family:"amatic-sc";
+	letter-spacing:30px;
+	font-size:125px;
+	color: aliceblue;
+	text-decoration: inherit;
+	text-align: center;
+    line-height: 600px;
+    }
+.gaikuang{
+	color:#000000;
+	opacity:0.8;
+	width: 60%;
+	height: 320px;
+	margin-left:25%;
+	margin-top: -600px;
+	box-shadow: 0px 0px 10px #000000;
+}
+.gaikuang:hover{
+	box-shadow: 0px 0px 15px #000000;    
+}
+.content{
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+	
+}
+h1{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align:center;
+	font-size:30px;
+	position: relative;
+}
+.col{
+	width:80%;
+	height:300px;
+	margin: 0 auto;
+	padding-left: 15%;
+    
+}
+.jingkuang{
+	background-color:#FFFFFF;
+	width:24%;
+	height:300px;
+	float:left;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	overflow: hidden;
+	box-shadow:0px 0px 10px #575756;
+	
+}
+.jingkuang:hover .intro{
+	color:#F1919E;
+}
+
+.jing1{
+	width:100%;
+	height:205px;
+	background-image: url(../img/旺角景.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	transition: all 0.6s;
+	position: relative;
+	margin: 0px;
+}
+.jing1:hover,.jing2:hover,.jing3:hover,.jing4:hover,.jing5:hover,.jing6:hover{
+	transform: scale(1.1);
+}
+.intro{
+	height: 95px;
+	width: 100%;
+	font-size: 16pt;
+	text-align: center;
+	margin: 0px;
+	line-height: 95px;
+	position: relative;
+	background-color:#FFFFFF;
+	text-decoration: none;
+	color:#000000;
+}
+.jing2{
+	width:100%;
+	height:205px;
+	background-image: url(../img/彩虹邨.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	transition: all 0.6s;
+	position: relative;
+	margin: 0px;
+}
+.jing3{
+	width:100%;
+	height:205px;
+	background-image: url(../img/尖沙咀.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	transition: all 0.6s;
+	position: relative;
+	margin: 0px;
+}
+.jing4{
+	width:100%;
+	height:205px;
+	background-image: url(../img/迪士尼乐园.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	transition: all 0.6s;
+	position: relative;
+	margin: 0px;
+}
+.jing5{
+	width:100%;
+	height:205px;
+	background-image: url(../img/维多利亚港.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	transition: all 0.6s;
+	position: relative;
+	margin: 0px;
+}
+.jing6{
+	width:100%;
+	height:205px;
+	background-image: url(../img/中环.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	transition: all 0.6s;
+	position: relative;
+	margin: 0px;
+}
+
+.paihang{
+	background-image: url(../机窗.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+}
+.zhezhao4{
+	     background: rgba(0,0,0,.4);
+	     width:100%;
+	     height: 300px;
+}
+.reping{
+	width: 100%;
+	float:left;
+}
+h1{
+	width: 100%;
+	height: 150px;
+	line-height: 150px;
+	text-align:center;
+}
+.tag{
+	width: 100%;
+	height: 344px;
+	background-color: rgba(139,207,224,0.5);
+	float: left;
+	margin-bottom: 80px;
+}
+
+.yuan img{
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	margin: 20px 85px;
+}
+.yuan .tagwords{
+	text-align: left;
+	margin: 30px;
+	font-size:14px;
+}
+.yuan .mingzi{
+	margin: -10px;
+	text-align: center;
+}
+.yuan{
+	width: 16%;
+	height: 70%;
+	background-color:#FFFFFF;
+	float: left;
+	margin: 3.2% -2.7% 3.2% 3.2%;
+	cursor: pointer;
+	position: relative;
+}
+
+.yuan:hover img,.yuan2:hover img{
+	box-shadow: 3px 0px 10px;
+	transition-duration: 0.5s;
+}
+.yuan:hover .mingzi{
+	text-decoration: underline;
+	transition-duration: 1.5s;
+}
+.yuan:hover{
+	box-shadow: 5px 0px 20px;
+	transition-duration: 0.5s;
+}
+.tuding{
+	width: 9%;
+	height: 30px;
+	border: 1px solid #000;
+	position: absolute;
+	font-size: 20px;
+	margin-left: 83%;
+	margin-top: 180px;
+	padding: 3px;
+	text-align: center;
+	cursor: pointer;
+}
+.tu1_1{
+	background-image: url(../img/tu1_1.jpg);
+	background-size: contain;
+	background-color: #F5C4C5;
+	width: 17%;
+	height: 100%;
+	float: left;
+	margin-left:22%;
+}
+.tu1_2{
+	background-image: url(../img/tu1_2.jpg);
+	background-size: cover;
+	background-color: #F5C4C5;
+	width: 23%;
+	height: 85%;
+	float: left;
+	margin-top: 25px;
+}
+.tu2_1{
+	background-image: url(../img/tu2_1.jpg);
+	background-size: contain;
+	background-color: #F5C4C5;
+	width: 17%;
+	height: 100%;
+	float: left;
+}
+.tu2_2{
+	background-image: url(../img/tu2_2.jpg);
+	background-size: cover;
+	background-color: #F5C4C5;
+	width: 23%;
+	height: 85%;
+	float: left;
+	margin-top: 25px;
+	margin-left: 22.4%;
+}
+.tu3_1{
+	background-image: url(../img/tu3_1.jpg);
+	background-size: contain;
+	background-color: #F5C4C5;
+	width: 17%;
+	height: 100%;
+	float: left;
+	margin-left:22%;
+}
+.tu3_2{
+	background-image: url(../img/tu3_2.jpg);
+	background-size: cover;
+	background-color: #F5C4C5;
+	width: 23%;
+	height: 85%;
+	float: left;
+	margin-top: 25px;
+}
+.tu4_1{
+	background-image: url(../img/tu4_1.jpg);
+	background-size: contain;
+	background-color: #F5C4C5;
+	width: 17%;
+	height: 100%;
+	float: left;
+}
+.tu4_2{
+	background-image: url(../img/tu4_2.jpg);
+	background-size: cover;
+	background-color: #F5C4C5;
+	width: 23%;
+	height: 85%;
+	float: left;
+	margin-top: 25px;
+    margin-left: 22.4%;
+}
+.all{
+	width: 100%;
+	height: auto;
+}
+.hh{
+	width:100%;
+	height:100px;
+	line-height:100px;
+	float:left;
+	margin-top:-50px;
+	margin-bottom:50px;
+	font-size:30px;
+	text-align:center;
+}
+	
+.all-a{
+	width: 19%;
+	height: 200px;
+	text-align: center;
+	line-height: 350px;
+	float: left;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 7px inset;
+	cursor: pointer;
+}
+.a-col{
+	width:80%;
+	margin-left:15%;
+	height:200px;
+	margin-bottom:100px;
+	float:left;
+}
+.jingkuang a{
+	text-decoration:none !important;
+}
+.all-a:hover{
+	color: #F1919E;
+}
+.a-zi{
+	width: 100%;
+	height: 57px;
+	line-height: 57px;
+}
+.a1{
+	width: 100%;
+	height: 143px;
+	background-image:url(../img/%E6%97%BA%E8%A7%92%E6%99%AF.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.a2{
+	width: 100%;
+	height: 143px;
+	background-image: url(../img/中环.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.a3{
+	width: 100%;
+	height: 143px;
+	background-image: url(../img/迪士尼乐园.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.a4{
+	width: 100%;
+	height: 143px;
+	background-image: url(../img/维多利亚港.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.a5{
+	width: 100%;
+	height: 143px;
+	background-image: url(../img/彩虹邨.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.a6{
+	width: 100%;
+	height: 143px;
+	background-image: url(../img/尖沙咀.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.a7{
+	width: 100%;
+	height: 143px;
+	background-image: url(../img/太平山顶.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.a8{
+	width: 100%;
+	height: 143px;
+	background-image: url(../img/南丫岛.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.ep-pages a{
+	text-decoration:none;
+}
+.ep-pages{
+	padding:10px 12px;
+	clear:both;
+	text-align:center;
+	font-size:14px;
+	vertical-align:top;
+	margin-left: 400px;
+} 
+.ep-pages a, .ep-pages span{
+	display:inline-block;
+	height:23px;
+	line-height:23px;
+	padding:0 8px;
+    margin:5px 1px 0 0;
+	border:1px solid #000000;
+	overflow:hidden;
+	vertical-align:top
+} 
+.ep-pages a:hover{
+	background:#F1919E;
+	border:1px solid #F1919E;
+	text-decoration:none;
+} 
+.ep-pages a, .ep-pages a:visited{
+	color:#252525;
+} 
+.ep-pages a:hover, .ep-pages a:active{
+	color:#ffffff;
+} 
+.ep-pages .current{
+	background:#F1919E;
+	border:1px solid #F1919E;
+	color:#fff;
+} 
+.ep-pages a.current, .ep-pages a.current:visited{
+	color:#ffffff;
+} 
+.ep-pages a.current:hover, .ep-pages a.current:active{
+	color:#ffffff;
+} 
+.ep-pages-ctrl{
+	font-family:"\5B8B\4F53", sans-serif;
+	font-weight:bold;
+	font-size:16px;
+} 
+.ep-pages-e5e5e5{
+	color:#000000;
+} 
+
+.footer{
+	background:#141414;
+	bottom: 0;
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+	font-family: 'Roboto Slab', serif;
+	float:left;
+}
+.footer-top-at {
+	float: left;
+	width: 100%;
+}
+.neirong {
+  margin-right: 15px;
+	float: left;
+    width: 100%;
+  }
+ .col-md-3 {
+  min-height: 1px;
+  margin-left: 150px;
+  margin-top: 90px;
+    width: 12%;
+    float: left;
+  }
+.amet-sed h4{
+	font-size: 18px;
+  	color: #B0B2B5;
+    font-family: 'Lato', sans-serif;
+	margin: 0 0 15px 30px;
+	text-transform: uppercase;
+    font-weight: 700;
+}
+ ul.nav-bottom li{
+	list-style:none;
+}
+ul.nav-bottom li  a{
+	text-decoration:none;
+	color:#6B6B6B;
+	font-size:18px;
+	display: inline-block;
+	margin: 4px 0;
+}
+ul.nav-bottom li  a:hover{
+	color:#8ce78a;
+}
+.amet-sed p{
+	color:#989696;
+	font-size: 20px;
+	margin: 0 0 5px;
+}
+.footer-class  p a{
+	color:#8ce78a;
+	text-decoration:none;
+}
+.footer-class  p a:hover{
+	color:#fff;
+}
+
+.amet-sed form{
+   padding:15px 0 0;
+}
+.amet-sed input[type="text"], .amet-sed input[type="submit"] {
+  width: 100%;
+  padding: 0.5em;
+  outline: none;
+  color: #000;
+  font-size: 1em;
+  background: #fff;
+  border: none;
+ }
+ .amet-sed input[type="submit"] {
+  width: 36%;
+  color: #FFF;
+  font-size: 18px;
+  background:#8ce78a;
+  border: none;
+  outline:none;
+  padding: 0.5em;
+}
+.amet-sed input[type="submit"]:hover {
+background: #fff;
+color:#8ce78a;
+}
+.footer-class p {
+    font-size: 20px;
+    line-height: 40px;
+}
+.footer-class {
+    padding: 10px 0;
+	text-align:center;
+    background:#000;
+}
+
+
+/* CSS Document */
+
